@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
 /***/ "../../node_modules/css-loader/dist/cjs.js!./src/Components/child/child.css":
 /*!******************************************************************************************************************************!*\
