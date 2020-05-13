@@ -1,16 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
 
-/***/ "../../node_modules/css-loader/dist/cjs.js!./src/Components/parent/parent.css":
-/*!********************************************************************************************************************************!*\
-  !*** C:/Users/Simon/Desktop/official_repo/durandal-es6/node_modules/css-loader/dist/cjs.js!./src/Components/parent/parent.css ***!
-  \********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".parent {\\r\\n    background-color: blue;\\r\\n    color: orange;\\r\\n    margin: 20px;\\r\\n    padding: 20px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/Components/parent/parent.css?C:/Users/Simon/Desktop/official_repo/durandal-es6/node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
 /***/ "./src/Components/parent/index.js":
 /*!****************************************!*\
   !*** ./src/Components/parent/index.js ***!
@@ -30,7 +19,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _par
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!./parent.css */ \"../../node_modules/css-loader/dist/cjs.js!./src/Components/parent/parent.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/Components/parent/parent.css?");
+eval("// extracted by extract-css-chunks-webpack-plugin\n\n//# sourceURL=webpack:///./src/Components/parent/parent.css?");
 
 /***/ }),
 
