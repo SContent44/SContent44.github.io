@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["child"],{
 
 /***/ "./src/Components/child/child.css":
 /*!****************************************!*\

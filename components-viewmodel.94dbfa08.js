@@ -1,0 +1,27 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["components-viewmodel"],{
+
+/***/ "./src/viewmodels/ko-components/ko-components.html":
+/*!*********************************************************!*\
+  !*** ./src/viewmodels/ko-components/ko-components.html ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// Module\nvar code = \"<transition>\\r\\n    <section>\\r\\n        <h1>Knockout components</h1>\\r\\n        <p>\\r\\n            Here are 3 nested components. Grandparent -> Parent -> Child. If you open up your network tab (and turn on\\r\\n            throttling to make it a bit clearer) when you load this page you will see:\\r\\n        </p>\\r\\n        <ol>\\r\\n            <li>The pages ViewModel load</li>\\r\\n            <li>\\r\\n                The child component load (with a descriptive name) and the grandparent component load at about the same\\r\\n                time\\r\\n            </li>\\r\\n            <li>The parent component load</li>\\r\\n        </ol>\\r\\n        <p>\\r\\n            This is a showcase of how the application has control of when to lazy-load modules (including components\\r\\n            which are \\\"loaded asynchronously\\\")\\r\\n        </p>\\r\\n        <h2>Inputs</h2>\\r\\n        <p>Grandparent name: <input data-bind=\\\"value: $root.grandparentInput\\\" /></p>\\r\\n        <p>Parent name: <input data-bind=\\\"value: $root.parentInput\\\" /></p>\\r\\n        <p>Child name: <input data-bind=\\\"value: childInput\\\" /></p>\\r\\n\\r\\n        <h2>Grand parent (two nested components)</h2>\\r\\n        <grandparent\\r\\n            params=\\\"grandparentValue: grandparentDisplay, \\r\\n                parentValue: parentDisplay,\\r\\n                childValue: childDisplay\\\"\\r\\n        ></grandparent>\\r\\n    </section>\\r\\n</transition>\\r\\n\";\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (code);\n\n//# sourceURL=webpack:///./src/viewmodels/ko-components/ko-components.html?");
+
+/***/ }),
+
+/***/ "./src/viewmodels/ko-components/ko-components.js":
+/*!*******************************************************!*\
+  !*** ./src/viewmodels/ko-components/ko-components.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string */ \"../../node_modules/core-js/modules/es.object.to-string.js\");\n/* harmony import */ var core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise */ \"../../node_modules/core-js/modules/es.promise.js\");\n/* harmony import */ var core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var knockout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! knockout */ \"../../node_modules/knockout/build/output/knockout-latest.js\");\n/* harmony import */ var knockout__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(knockout__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _ko_components_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ko-components.html */ \"./src/viewmodels/ko-components/ko-components.html\");\n\n\n\n // Uncomment the follow line to see how you can control the lazy loading of components\n\n__webpack_require__.e(/*! import() | child */ \"child\").then(__webpack_require__.bind(null, /*! ../../Components/child/index */ \"./src/Components/child/index.js\"));\n\nfunction ComponentViewModel() {\n  var _this = this;\n\n  this.view = _ko_components_html__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n  this.grandparentInput = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.observable(\"Grandparent Name\").extend({\n    required: true\n  });\n  this.parentInput = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.observable(\"Parent Name\").extend({\n    required: true\n  });\n  this.childInput = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.observable(\"Child Name\").extend({\n    required: true\n  });\n  this.grandparentDisplay = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.pureComputed(function () {\n    return _this.grandparentInput();\n  }, this);\n  this.parentDisplay = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.pureComputed(function () {\n    return _this.parentInput();\n  }, this);\n  this.childDisplay = knockout__WEBPACK_IMPORTED_MODULE_2___default.a.pureComputed(function () {\n    return _this.childInput();\n  }, this);\n}\n\nvar Component = new ComponentViewModel();\n/* harmony default export */ __webpack_exports__[\"default\"] = (Component);\n\n//# sourceURL=webpack:///./src/viewmodels/ko-components/ko-components.js?");
+
+/***/ })
+
+}]);
