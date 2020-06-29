@@ -31,7 +31,7 @@ eval("// extracted by extract-css-chunks-webpack-plugin\nmodule.exports = {\"com
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// Module\nvar code = \"<p data-bind=\\\"class: styles.component\\\">Parent component: <b data-bind=\\\"text: parentValue\\\"></b></p>\\n<hr />\\n<child params=\\\"childValue: childValue\\\"></child>\\n\";\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (code);\n\n//# sourceURL=webpack:///./src/Components/parent/parent.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n// Module\nvar code = \"<p data-bind=\\\"class: styles.component\\\">\\n    Parent component:\\n    <b data-bind=\\\"text: parentValue\\\"></b>\\n</p>\\n<hr />\\n<child params=\\\"childValue: childValue\\\"></child>\\n\";\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (code);\n\n//# sourceURL=webpack:///./src/Components/parent/parent.html?");
 
 /***/ })
 

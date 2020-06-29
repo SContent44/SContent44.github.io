@@ -19,7 +19,7 @@ eval("// extracted by extract-css-chunks-webpack-plugin\nmodule.exports = {\"com
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// Module\nvar code = \"<p data-bind=\\\"class: styles.component\\\">Child component: <i data-bind=\\\"text: childValue\\\"></i></p>\\n\";\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (code);\n\n//# sourceURL=webpack:///./src/Components/child/child.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n// Module\nvar code = \"<p data-bind=\\\"class: styles.component\\\">\\n    Child component:\\n    <i data-bind=\\\"text: childValue\\\"></i>\\n</p>\\n\";\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (code);\n\n//# sourceURL=webpack:///./src/Components/child/child.html?");
 
 /***/ }),
 
